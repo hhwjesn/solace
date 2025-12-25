@@ -1,0 +1,33 @@
+@keyframes lines {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -937.03vw 0;
+  }
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(-20%);
+    opacity: 1;
+  }
+
+  70% {
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(220%);
+    opacity: 0;
+  }
+}
+
+@keyframes light {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -717.08vw 0;
+  }
+}

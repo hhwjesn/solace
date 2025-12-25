@@ -1,3 +1,225 @@
 body {
   background-color: #141e4f;
 }
+
+section {
+  width: 100%;
+}
+
+#name {
+  height: 56.25vw;
+}
+.name {
+  width: 85.6771vw;
+  height: 31.35vw;
+  background-image: url(../images/name11.png);
+  background-size: 85.6771vw 31.35vw;
+  display: flex; /*не хочет встать по центру */
+  justify-content: center;
+  align-items: center;
+}
+.name:hover {
+  background-image: url(../images/name22.png);
+}
+
+.circle1,
+.circle2,
+.circle3,
+.circle4,
+.circle5,
+.circle6,
+.circle7,
+.circle8,
+.circle9,
+.circle10,
+.circle11,
+.circle12,
+.circle13 {
+  position: absolute;
+  top: -20%;
+  animation: fall linear infinite;
+}
+.circle1 {
+  width: 2.86vw;
+  height: 16.88vw;
+  background-image: url(../images/circle1.png);
+  background-size: 2.86vw 16.88vw;
+  left: 2%;
+  animation-duration: 5s;
+  animation-delay: -1s;
+}
+.circle2 {
+  width: 2.65625vw;
+  height: 8.2084vw;
+  background-image: url(../images/circle2.png);
+  background-size: 2.65625vw 8.2084vw;
+  left: 12%;
+  animation-duration: 6.4s;
+  animation-delay: -3s;
+}
+.circle3 {
+  width: 3.489584vw;
+  height: 15.4864584vw;
+  background-image: url(../images/circle3.png);
+  background-size: 3.489584vw 15.4864584vw;
+  left: 20%;
+  animation-duration: 6s;
+  animation-delay: -2s;
+}
+.circle4 {
+  width: 2.9167vw;
+  height: 16.1338542vw;
+  background-image: url(../images/circle4.png);
+  background-size: 2.9167vw 16.1338542vw;
+  left: 28%;
+  animation-duration: 8s;
+  animation-delay: -5s;
+}
+.circle5 {
+  width: 2.86458vw;
+  height: 17.067709vw;
+  background-image: url(../images/circle5.png);
+  background-size: 2.86458vw 17.067709vw;
+  left: 36%;
+  animation-duration: 5.5s;
+  animation-delay: -4s;
+}
+.circle6 {
+  width: 2.86458vw;
+  height: 11.09375vw;
+  background-image: url(../images/circle6.png);
+  background-size: 2.86458vw 11.09375vw;
+  left: 44%;
+  animation-duration: 7.5s;
+  animation-delay: -6s;
+}
+.circle7 {
+  width: 2.5296875vw;
+  height: 15.676vw;
+  background-image: url(../images/circle7.png);
+  background-size: 2.5296875vw 15.676vw;
+  left: 52%;
+  animation-duration: 6.5s;
+  animation-delay: -2s;
+}
+.circle8 {
+  width: 4.375vw;
+  height: 15.227vw;
+  background-image: url(../images/circle8.png);
+  background-size: 4.375vw 15.227vw;
+  left: 60%;
+  animation-duration: 8.5s;
+  animation-delay: -7s;
+}
+.circle9 {
+  width: 2.5521vw;
+  height: 14.0875vw;
+  background-image: url(../images/circle9.png);
+  background-size: 2.5521vw 14.0875vw;
+  left: 68%;
+  animation-duration: 5.8s;
+  animation-delay: -3s;
+}
+.circle10 {
+  width: 2.86458vw;
+  height: 21.01875vw;
+  background-image: url(../images/circle10.png);
+  background-size: 2.86458vw 21.01875vw;
+  left: 76%;
+  animation-duration: 7.8s;
+  animation-delay: -6s;
+}
+.circle11 {
+  width: 2.604vw;
+  height: 21.65vw;
+  background-image: url(../images/circle11.png);
+  background-size: 2.604vw 21.65vw;
+  left: 84%;
+  animation-duration: 6.2s;
+  animation-delay: -1s;
+}
+.circle12 {
+  width: 2.86vw;
+  height: 12.227vw;
+  background-image: url(../images/circle12.png);
+  background-size: 2.86vw 12.227vw;
+  left: 89%;
+  animation-duration: 8s;
+  animation-delay: -5s;
+}
+.circle13 {
+  width: 2.86458vw;
+  height: 22.546vw;
+  background-image: url(../images/circle13.png);
+  background-size: 2.86458vw 22.546vw;
+  left: 95%;
+  animation-duration: 6.8s;
+  animation-delay: -4s;
+}
+
+#second {
+  height: 57.2917vw;
+  background-image: url(../images/gradient.png);
+  background-size: 100vw 57.2917vw;
+}
+
+.lines {
+  width: 99.95vw;
+  height: 78.59vw;
+  background-image: url(../images/line3.png);
+  background-size: 1036.98vw 78.59vw;
+  animation: lines 1.6s infinite steps(9);
+}
+
+#light-ball {
+  height: 93.75vw;
+}
+.ball-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ball {
+  width: 49.705vw;
+  height: 43vw;
+  background-image: url(../images/balllines3.png);
+  background-size: 49.705vw 43vw;
+}
+.text2 {
+  font-size: 32px;
+  color: #141e4f;
+  text-align: center;
+  width: 13.125vw;
+  height: 5.5729vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.ball:hover .text2 {
+  opacity: 1;
+}
+
+/* .balllines1 {
+  width: 49.705vw;
+  height: 43vw;
+  background-image: url(../images/balllines1.png);
+  background-size: 49.705vw 43vw;
+} */
+
+/* #light {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.light {
+  width: 46.2vw;
+  height: 80.42vw;
+  background-image: url(../images/light.png);
+  background-size: 717.08vw 80.42vw;
+  animation: light 2s steps(13) infinite;
+} /*почему-то сьезжает вправо */
