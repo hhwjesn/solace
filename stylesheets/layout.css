@@ -163,6 +163,17 @@ section {
   background-size: 100vw 57.2917vw;
 }
 
+.progress {
+  width: 26.19vw;
+  height: 26.19vw;
+  /* stroke: #e2e3ff;
+  stroke-width: 3px;
+  stroke-linecap: round; */
+  border-radius: 50%;
+  background: radial-gradient(closest-side, #141e4f 98%, transparent 80% 100%),
+    conic-gradient(#e2e3ff 75%, #7e84aa 0);
+}
+
 .lines {
   width: 99.95vw;
   height: 78.59vw;
@@ -195,10 +206,8 @@ section {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
   text-align: center;
   opacity: 0;
-  transition: opacity 0.3s ease;
 }
 .ball:hover .text2 {
   opacity: 1;
