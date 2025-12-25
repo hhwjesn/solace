@@ -198,6 +198,7 @@ section {
   background-size: 49.705vw 43vw;
 }
 .text2 {
+  font-family: "Montserrat";
   font-size: 32px;
   color: #141e4f;
   text-align: center;
@@ -231,4 +232,20 @@ section {
   background-image: url(../images/light.png);
   background-size: 717.08vw 80.42vw;
   animation: light 2s steps(13) infinite;
-} /*почему-то сьезжает вправо */
+}
+
+#last {
+  height: 5.26vw;
+  background-color: #e2e3ff;
+}
+.last p {
+  font-family: "Montserrat";
+  font-size: 1.25vw;
+  color: #141e4f;
+}
+
+.last {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
