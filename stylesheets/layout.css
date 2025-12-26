@@ -161,6 +161,7 @@ section {
 }
 
 #second {
+  overflow: hidden;
   height: 57.2917vw;
   background-image: url(../images/gradient.png);
   background-size: 100vw 57.2917vw;
@@ -183,20 +184,122 @@ section {
   background-image: url(../images/loading44.png);
   background-size: 3281.25vw 26.25vw;
   animation: progress 9s steps(1) forwards;
-  position: absolute;
+  position: relative;
   top: 7.97vw;
   left: 64.8vw;
+  z-index: 5;
+}
+
+.numbers1 {
+  width: 0.6em;
+  height: 1em;
+  overflow: hidden;
+  font-family: "Montserrat";
+  font-size: 4.5833vw;
+  color: #e2e3ff;
+  position: absolute;
+  top: 11.2vw;
+  left: 3.2vw;
+  display: flex;
+  gap: 0.2em;
+}
+
+.numbers-anim1 {
+  display: inline-block;
+  animation: numbers 9s steps(9) forwards;
+}
+
+.numbers2 {
+  width: 0.6em;
+  height: 1em;
+  overflow: hidden;
+  font-family: "Montserrat";
+  font-size: 4.5833vw;
+  color: #e2e3ff;
+  position: absolute;
+  top: 11.2vw;
+  left: 6.2vw;
+  display: flex;
+  gap: 0.2em;
+}
+.numbers-anim2 {
+  display: inline-block;
+  animation: numbers 8s steps(9) forwards;
+}
+
+.numbers3 {
+  width: 0.6em;
+  height: 1em;
+  overflow: hidden;
+  font-family: "Montserrat";
+  font-size: 4.5833vw;
+  color: #e2e3ff;
+  position: absolute;
+  top: 11.2vw;
+  left: 9.2vw;
+  display: flex;
+  gap: 0.2em;
+}
+.numbers-anim3 {
+  display: inline-block;
+  animation: numbers 7s steps(9) forwards;
+}
+
+.numbers4 {
+  width: 0.6em;
+  height: 1em;
+  overflow: hidden;
+  font-family: "Montserrat";
+  font-size: 4.5833vw;
+  color: #e2e3ff;
+  position: absolute;
+  top: 11.2vw;
+  left: 14.2vw;
+  display: flex;
+  gap: 0.2em;
+}
+.numbers-anim4 {
+  display: inline-block;
+  animation: numbers 6s steps(9) forwards;
+}
+
+.numbers5 {
+  width: 0.6em;
+  height: 1em;
+  overflow: hidden;
+  font-family: "Montserrat";
+  font-size: 4.5833vw;
+  color: #e2e3ff;
+  position: absolute;
+  top: 11.2vw;
+  left: 17.2vw;
+  display: flex;
+  gap: 0.2em;
+}
+.numbers-anim5 {
+  display: inline-block;
+  animation: numbers 5s steps(9) forwards;
+}
+
+.numbers6 {
+  width: 0.6em;
+  height: 1em;
+  overflow: hidden;
+  font-family: "Montserrat";
+  font-size: 4.5833vw;
+  color: #e2e3ff;
+  position: absolute;
+  top: 11.2vw;
+  left: 20.2vw;
+  display: flex;
+  gap: 0.2em;
+}
+.numbers-anim6 {
+  display: inline-block;
+  animation: numbers 4s steps(9) forwards;
 }
 
 .stroke p {
-  /* position: absolute;
-  top: 38.28vw;
-  left: 54.427vw;
-  font-family: "Montserrat";
-  font-size: 1.25vw;
-  color: #e2e3ff;
-  animation: stroke 16s infinite linear;
-  width: 200%; */
   display: inline-block;
   white-space: nowrap;
   font-family: "Montserrat";
@@ -207,7 +310,7 @@ section {
 }
 .stroke {
   width: 45.57vw;
-  height: 1.5vw;
+  /* height: 1.5vw; */
   overflow: hidden;
   position: absolute;
   top: 38.28vw;
@@ -218,12 +321,87 @@ section {
 }
 
 .lines {
-  width: 99.95vw;
+  width: 100%;
   height: 78.59vw;
   background-image: url(../images/line11.svg);
   background-size: 99.95vw 78.59vw;
-  /* background-size: 1036.98vw 78.59vw; */
-  /* animation: lines 1.6s infinite steps(9); */
+  position: relative;
+}
+
+.dot1 {
+  position: absolute;
+  top: 12.8vw;
+  left: 37.9vw;
+  width: 2.6vw;
+  height: 2.6vw;
+  background-image: url(../images/star0.svg);
+  background-size: 2.6vw 2.6vw;
+}
+.dot1:hover {
+  background-image: url(../images/star11.svg);
+  transform: scale(5.4);
+  animation: blink 0.6s linear infinite;
+}
+
+.dot2 {
+  position: absolute;
+  top: 20.6vw;
+  left: 79.95vw;
+  width: 2.6vw;
+  height: 2.6vw;
+  background-image: url(../images/star0.svg);
+  background-size: 2.6vw 2.6vw;
+  transition: transform 0.4s ease; /* может быть убрать */
+}
+.dot2:hover {
+  background-image: url(../images/star2.svg);
+  transform: scale(10.4);
+  animation: kach 1.5s ease-in-out infinite;
+}
+
+.dot3 {
+  position: absolute;
+  top: 38vw;
+  left: 16.2vw;
+  width: 2.6vw;
+  height: 2.6vw;
+  background-image: url(../images/star0.svg);
+  background-size: 2.6vw 2.6vw;
+  transition: 1s;
+}
+.dot3:hover {
+  background-image: url(../images/star3.svg);
+  transform: scale(10.4);
+}
+
+.dot4 {
+  position: absolute;
+  top: 47.6vw;
+  left: 46vw;
+  width: 2.6vw;
+  height: 2.6vw;
+  background-image: url(../images/star0.svg);
+  background-size: 2.6vw 2.6vw;
+  transition: 1.4s;
+}
+.dot4:hover {
+  background-image: url(../images/star4.svg);
+  transform: scale(-30);
+}
+
+.dot5 {
+  position: absolute;
+  top: 68.9vw;
+  left: 85.7vw;
+  width: 2.6vw;
+  height: 2.6vw;
+  background-image: url(../images/star0.svg);
+  background-size: 2.6vw 2.6vw;
+}
+.dot5:hover {
+  background-image: url(../images/star5.svg);
+  transform: scale(11.5);
+  animation: kach2 3s ease-in-out forwards;
 }
 
 #light-ball {
@@ -381,12 +559,110 @@ section {
 }
 
 .last {
-  width: 100vw;
-  height: 11.4vw;
-  background-image: url(../images/laststroke.svg);
-  background-size: cover;
+  overflow: hidden;
+  width: 100%;
+  height: 5.3vw;
+  background-color: #e2e3ff;
   position: absolute;
-  bottom: 0;
-  left: 0;
-  z-index: 6;
+}
+
+.last p {
+  position: absolute;
+  top: 1.9vw;
+  width: 100%;
+  font-family: "Montserrat";
+  font-size: 1.25vw;
+  color: #141e4f;
+}
+
+.milana {
+  position: relative;
+  left: 11.7vw;
+}
+.group {
+  position: relative;
+  left: 47.1vw;
+}
+.year {
+  position: relative;
+  left: 78.3vw;
+}
+
+.lastdot1,
+.lastdot2,
+.lastdot3,
+.lastdot4,
+.lastdot5,
+.lastdot6,
+.lastdot7,
+.lastdot8,
+.lastdot9,
+.lastdot10,
+.lastdot11 {
+  position: absolute;
+  top: 1.5vw;
+  width: 2.4vw;
+  height: 2.4vw;
+  background-color: #141e4f;
+  border-radius: 50%;
+  z-index: 2;
+}
+.lastdot1 {
+  left: 1.25vw;
+  transition: all 2s ease;
+}
+.lastdot2 {
+  left: 32.2vw;
+  transition: all 2s ease;
+}
+.lastdot3 {
+  left: 34.6vw;
+  transition: all 2s ease;
+}
+.lastdot4 {
+  left: 37vw;
+  transition: all 2s ease;
+}
+.lastdot5 {
+  left: 60.8vw;
+  transition: all 2s ease;
+}
+.lastdot6 {
+  left: 63.2vw;
+  transition: all 2s ease;
+}
+.lastdot7 {
+  left: 65.6vw;
+  transition: all 2s ease;
+}
+.lastdot8 {
+  left: 68vw;
+  transition: all 2s ease;
+}
+.lastdot9 {
+  left: 89.4vw;
+  transition: all 2s ease;
+}
+.lastdot10 {
+  left: 92.8vw;
+  transition: all 2s ease;
+}
+.lastdot11 {
+  left: 95.2vw;
+  transition: all 2s ease;
+}
+
+.lastdot1:hover,
+.lastdot2:hover,
+.lastdot3:hover,
+.lastdot4:hover,
+.lastdot5:hover,
+.lastdot6:hover,
+.lastdot7:hover,
+.lastdot8:hover,
+.lastdot9:hover,
+.lastdot10:hover,
+.lastdot11:hover {
+  background-color: #e2e3ff;
+  transition: all 0.1s ease;
 }
