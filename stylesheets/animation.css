@@ -1,11 +1,11 @@
-@keyframes lines {
+/* @keyframes lines {
   from {
     background-position: 0 0;
   }
   to {
     background-position: -937.03vw 0;
   }
-}
+} */
 
 @keyframes fall {
   0% {
@@ -23,11 +23,419 @@
   }
 }
 
+@keyframes scheme {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -621.74vw 0;
+  }
+}
+
 @keyframes light {
   from {
     background-position: 0 0;
   }
   to {
     background-position: -723.26vw 0;
+  }
+}
+
+/* @keyframes progress {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: -3274.979583333vw 0;
+  }
+} */
+
+@keyframes progress {
+  0% {
+    background-position: 0 0;
+  }
+  0.8% {
+    background-position: -26.25vw 0;
+  }
+  1.6% {
+    background-position: -52.5vw 0;
+  }
+  2.4% {
+    background-position: -78.75vw 0;
+  }
+  3.2% {
+    background-position: -105vw 0;
+  }
+  4% {
+    background-position: -131.25vw 0;
+  }
+  4.8% {
+    background-position: -157.5vw 0;
+  }
+  5.6% {
+    background-position: -183.75vw 0;
+  }
+  6.4% {
+    background-position: -210vw 0;
+  }
+  7.2% {
+    background-position: -236.25vw 0;
+  }
+  8% {
+    background-position: -262.5vw 0;
+  }
+  8.8% {
+    background-position: -288.75vw 0;
+  }
+  9.6% {
+    background-position: -315vw 0;
+  }
+  10.4% {
+    background-position: -341.25vw 0;
+  }
+  11.2% {
+    background-position: -367.5vw 0;
+  }
+  12% {
+    background-position: -393.75vw 0;
+  }
+  12.8% {
+    background-position: -420vw 0;
+  }
+  13.6% {
+    background-position: -446.25vw 0;
+  }
+  14.4% {
+    background-position: -472.5vw 0;
+  }
+  15.2% {
+    background-position: -498.75vw 0;
+  }
+  16% {
+    background-position: -525vw 0;
+  }
+  16.8% {
+    background-position: -551.25vw 0;
+  }
+  17.6% {
+    background-position: -577.5vw 0;
+  }
+  18.4% {
+    background-position: -603.75vw 0;
+  }
+  19.2% {
+    background-position: -630vw 0;
+  }
+  20% {
+    background-position: -656.25vw 0;
+  }
+  20.8% {
+    background-position: -682.5vw 0;
+  }
+  21.6% {
+    background-position: -708.75vw 0;
+  }
+  22.4% {
+    background-position: -735vw 0;
+  }
+  23.2% {
+    background-position: -761.25vw 0;
+  }
+  24% {
+    background-position: -787.5vw 0;
+  }
+  24.8% {
+    background-position: -813.75vw 0;
+  }
+  25.6% {
+    background-position: -840vw 0;
+  }
+  26.4% {
+    background-position: -866.25vw 0;
+  }
+  27.2% {
+    background-position: -892.5vw 0;
+  }
+  28% {
+    background-position: -918.75vw 0;
+  }
+  28.8% {
+    background-position: -945vw 0;
+  }
+  29.6% {
+    background-position: -971.25vw 0;
+  }
+  30.4% {
+    background-position: -997.5vw 0;
+  }
+  31.2% {
+    background-position: -1023.75vw 0;
+  }
+  32% {
+    background-position: -1050vw 0;
+  }
+  32.8% {
+    background-position: -1076.25vw 0;
+  }
+  33.6% {
+    background-position: -1102.5vw 0;
+  }
+  34.4% {
+    background-position: -1128.75vw 0;
+  }
+  35.2% {
+    background-position: -1155vw 0;
+  }
+  36% {
+    background-position: -1181.25vw 0;
+  }
+  36.8% {
+    background-position: -1207.5vw 0;
+  }
+  37.6% {
+    background-position: -1233.75vw 0;
+  }
+  38.4% {
+    background-position: -1260vw 0;
+  }
+  39.2% {
+    background-position: -1286.25vw 0;
+  }
+  40% {
+    background-position: -1312.5vw 0;
+  }
+  40.8% {
+    background-position: -1338.75vw 0;
+  }
+  41.6% {
+    background-position: -1365vw 0;
+  }
+  42.4% {
+    background-position: -1391.25vw 0;
+  }
+  43.2% {
+    background-position: -1417.5vw 0;
+  }
+  44% {
+    background-position: -1443.75vw 0;
+  }
+  44.8% {
+    background-position: -1470vw 0;
+  }
+  45.6% {
+    background-position: -1496.25vw 0;
+  }
+  46.4% {
+    background-position: -1522.5vw 0;
+  }
+  47.2% {
+    background-position: -1548.75vw 0;
+  }
+  48% {
+    background-position: -1575vw 0;
+  }
+  48.8% {
+    background-position: -1601.25vw 0;
+  }
+  49.6% {
+    background-position: -1627.5vw 0;
+  }
+  50.4% {
+    background-position: -1653.75vw 0;
+  }
+  51.2% {
+    background-position: -1680vw 0;
+  }
+  52% {
+    background-position: -1706.25vw 0;
+  }
+  52.8% {
+    background-position: -1732.5vw 0;
+  }
+  53.6% {
+    background-position: -1758.75vw 0;
+  }
+  54.4% {
+    background-position: -1785vw 0;
+  }
+  55.2% {
+    background-position: -1811.25vw 0;
+  }
+  56% {
+    background-position: -1837.5vw 0;
+  }
+  56.8% {
+    background-position: -1863.75vw 0;
+  }
+  57.6% {
+    background-position: -1890vw 0;
+  }
+  58.4% {
+    background-position: -1916.25vw 0;
+  }
+  59.2% {
+    background-position: -1942.5vw 0;
+  }
+  60% {
+    background-position: -1968.75vw 0;
+  }
+  60.8% {
+    background-position: -1995vw 0;
+  }
+  61.6% {
+    background-position: -2021.25vw 0;
+  }
+  62.4% {
+    background-position: -2047.5vw 0;
+  }
+  63.2% {
+    background-position: -2073.75vw 0;
+  }
+  64% {
+    background-position: -2100vw 0;
+  }
+  64.8% {
+    background-position: -2126.25vw 0;
+  }
+  65.6% {
+    background-position: -2152.5vw 0;
+  }
+  66.4% {
+    background-position: -2178.75vw 0;
+  }
+  67.2% {
+    background-position: -2205vw 0;
+  }
+  68% {
+    background-position: -2231.25vw 0;
+  }
+  68.8% {
+    background-position: -2257.5vw 0;
+  }
+  69.6% {
+    background-position: -2283.75vw 0;
+  }
+  70.4% {
+    background-position: -2310vw 0;
+  }
+  71.2% {
+    background-position: -2336.25vw 0;
+  }
+  72% {
+    background-position: -2362.5vw 0;
+  }
+  72.8% {
+    background-position: -2388.75vw 0;
+  }
+  73.6% {
+    background-position: -2415vw 0;
+  }
+  74.4% {
+    background-position: -2441.25vw 0;
+  }
+  75.2% {
+    background-position: -2467.5vw 0;
+  }
+  76% {
+    background-position: -2493.75vw 0;
+  }
+  76.8% {
+    background-position: -2520vw 0;
+  }
+  77.6% {
+    background-position: -2546.25vw 0;
+  }
+  78.4% {
+    background-position: -2572.5vw 0;
+  }
+  79.2% {
+    background-position: -2598.75vw 0;
+  }
+  80% {
+    background-position: -2625vw 0;
+  }
+  80.8% {
+    background-position: -2651.25vw 0;
+  }
+  81.6% {
+    background-position: -2677.5vw 0;
+  }
+  82.4% {
+    background-position: -2703.75vw 0;
+  }
+  83.2% {
+    background-position: -2730vw 0;
+  }
+  84% {
+    background-position: -2756.25vw 0;
+  }
+  84.8% {
+    background-position: -2782.5vw 0;
+  }
+  85.6% {
+    background-position: -2808.75vw 0;
+  }
+  86.4% {
+    background-position: -2835vw 0;
+  }
+  87.2% {
+    background-position: -2861.25vw 0;
+  }
+  88% {
+    background-position: -2887.5vw 0;
+  }
+  88.8% {
+    background-position: -2913.75vw 0;
+  }
+  89.6% {
+    background-position: -2940vw 0;
+  }
+  90.4% {
+    background-position: -2966.25vw 0;
+  }
+  91.2% {
+    background-position: -2992.5vw 0;
+  }
+  92% {
+    background-position: -3018.75vw 0;
+  }
+  92.8% {
+    background-position: -3045vw 0;
+  }
+  93.6% {
+    background-position: -3071.25vw 0;
+  }
+  94.4% {
+    background-position: -3097.5vw 0;
+  }
+  95.2% {
+    background-position: -3123.75vw 0;
+  }
+  96% {
+    background-position: -3150vw 0;
+  }
+  96.8% {
+    background-position: -3176.25vw 0;
+  }
+  97.6% {
+    background-position: -3202.5vw 0;
+  }
+  98.4% {
+    background-position: -3228.75vw 0;
+  }
+  99.2% {
+    background-position: -3255vw 0;
+  }
+  100% {
+    background-position: -3255vw 0;
+  }
+}
+
+@keyframes stroke {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
   }
 }

@@ -8,18 +8,21 @@ section {
 
 #name {
   height: 56.25vw;
+  display: flex;
+  justify-content: center;
 }
 .name {
   width: 85.6771vw;
   height: 31.35vw;
-  background-image: url(../images/name11.png);
+  background-image: url(../images/name111.svg);
   background-size: 85.6771vw 31.35vw;
-  display: flex; /*не хочет встать по центру */
-  justify-content: center;
-  align-items: center;
+  position: relative;
+  z-index: 2;
+  transition: 2s ease;
 }
 .name:hover {
-  background-image: url(../images/name22.png);
+  background-image: url(../images/name222.svg);
+  transition: 1s ease;
 }
 
 .circle1,
@@ -161,34 +164,77 @@ section {
   height: 57.2917vw;
   background-image: url(../images/gradient.png);
   background-size: 100vw 57.2917vw;
+  position: relative;
 }
 
+.scheme {
+  width: 48.177vw;
+  height: 47.34vw;
+  background-image: url(../images/scheme11.png);
+  background-size: 618.229vw 47.34vw;
+  animation: scheme 2.4s steps(12) infinite;
+  position: absolute;
+  top: 1.5vw;
+  left: 0.5vw;
+}
 .progress {
-  width: 26.19vw;
-  height: 26.19vw;
-  /* stroke: #e2e3ff;
-  stroke-width: 3px;
-  stroke-linecap: round; */
-  border-radius: 50%;
-  background: radial-gradient(closest-side, #141e4f 98%, transparent 80% 100%),
-    conic-gradient(#e2e3ff 75%, #7e84aa 0);
+  width: 26.25vw;
+  height: 26.25vw;
+  background-image: url(../images/loading44.png);
+  background-size: 3281.25vw 26.25vw;
+  animation: progress 9s steps(1) forwards;
+  position: absolute;
+  top: 7.97vw;
+  left: 64.8vw;
+}
+
+.stroke p {
+  /* position: absolute;
+  top: 38.28vw;
+  left: 54.427vw;
+  font-family: "Montserrat";
+  font-size: 1.25vw;
+  color: #e2e3ff;
+  animation: stroke 16s infinite linear;
+  width: 200%; */
+  display: inline-block;
+  white-space: nowrap;
+  font-family: "Montserrat";
+  font-size: 1.25vw;
+  color: #e2e3ff;
+  width: 352%;
+  animation: stroke 7s linear infinite;
+}
+.stroke {
+  width: 45.57vw;
+  height: 1.5vw;
+  overflow: hidden;
+  position: absolute;
+  top: 38.28vw;
+  left: 54.427vw;
+}
+.stroke > div {
+  padding: 2vw;
 }
 
 .lines {
   width: 99.95vw;
   height: 78.59vw;
-  background-image: url(../images/line3.png);
-  background-size: 1036.98vw 78.59vw;
-  animation: lines 1.6s infinite steps(9);
+  background-image: url(../images/line11.svg);
+  background-size: 99.95vw 78.59vw;
+  /* background-size: 1036.98vw 78.59vw; */
+  /* animation: lines 1.6s infinite steps(9); */
 }
 
 #light-ball {
   height: 93.75vw;
+  position: relative;
 }
 .ball-text {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
+  height: 93.75vw;
 }
 
 .ball {
@@ -196,8 +242,31 @@ section {
   height: 43vw;
   background-image: url(../images/balllines3.png);
   background-size: 49.705vw 43vw;
+  position: absolute;
+  bottom: 52.55vw;
+  z-index: 3;
 }
-.text2 {
+
+.ball p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 13.125vw;
+  height: 5.5729vw;
+  font-family: "Montserrat";
+  font-size: 1.67vw;
+  color: #141e4f;
+  text-align: center;
+  opacity: 0;
+  z-index: 4;
+}
+
+/* .text2 {
+  display: flex;
+  align-items: center;
+}
+.text2 p {
   font-family: "Montserrat";
   font-size: 32px;
   color: #141e4f;
@@ -209,8 +278,8 @@ section {
   left: 50%;
   text-align: center;
   opacity: 0;
-}
-.ball:hover .text2 {
+} */
+.ball:hover p {
   opacity: 1;
 }
 
@@ -221,31 +290,103 @@ section {
   background-size: 49.705vw 43vw;
 } */
 
-/* #light {
+/* #light-ball {
   display: flex;
   justify-content: center;
   align-items: center;
 } */
 .light {
-  width: 46.2vw;
+  position: absolute;
+  /* top: 16.875vw;
+  right: auto; */
+  bottom: -4vw;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 47vw;
   height: 80.42vw;
-  background-image: url(../images/light.png);
+  background-image: url(../images/light3.png);
   background-size: 717.08vw 80.42vw;
-  animation: light 2s steps(13) infinite;
+  animation: light 4s steps(13) infinite;
+  /* overflow: hidden; */
+  z-index: 1;
 }
 
-#last {
-  height: 5.26vw;
-  background-color: #e2e3ff;
+.stairs1 {
+  width: 65.4167vw;
+  height: 5.52vw;
+  background-size: auto;
+  background-color: #050d33;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
 }
-.last p {
+.stairs2 {
+  width: 39.11458vw;
+  height: 4.3229vw;
+  background-size: auto;
+  background-color: #050d33;
+  position: absolute;
+  bottom: 5.52vw;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+.stairs3 {
+  width: 27.92vw;
+  height: 3.125vw;
+  background-size: auto;
+  background-color: #050d33;
+  position: absolute;
+  bottom: 9.73958vw;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+.stairs4 {
+  width: 20.729vw;
+  height: 2.396vw;
+  background-size: auto;
+  background-color: #050d33;
+  position: absolute;
+  bottom: 12.86vw;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+.stairs p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-family: "Montserrat";
   font-size: 1.25vw;
-  color: #141e4f;
+  color: #e2e3ff;
+  text-align: center;
+  opacity: 0;
+  z-index: 4;
+}
+.stairs2:hover p {
+  opacity: 1;
+  transition: 1.5s ease;
+}
+.stairs3:hover p {
+  opacity: 1;
+  transition: 1.5s ease;
+}
+.stairs4:hover p {
+  opacity: 1;
+  transition: 1.5s ease;
 }
 
 .last {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 100vw;
+  height: 11.4vw;
+  background-image: url(../images/laststroke.svg);
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 6;
 }
