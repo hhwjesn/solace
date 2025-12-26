@@ -15,37 +15,37 @@
 }
 
 @keyframes scheme {
-  from {
+  0% {
     background-position: 0 0;
   }
-  to {
+  100% {
     background-position: -621.74vw 0;
   }
 }
 
 @keyframes numbers {
-  from {
+  0% {
     transform: translateX(0);
   }
-  to {
+  100% {
     transform: translateY(-9em);
   }
 }
 
 @keyframes light {
-  from {
+  0% {
     background-position: 0 0;
   }
-  to {
+  100% {
     background-position: -723.26vw 0;
   }
 }
 
 /* @keyframes progress {
-  from {
+  0% {
     background-position: 0 0;
   }
-  to {
+  100% {
     background-position: -3274.979583333vw 0;
   }
 } */

@@ -163,7 +163,7 @@ section {
 #second {
   overflow: hidden;
   height: 57.2917vw;
-  background-image: url(../images/gradient.png);
+  background-image: url(../images/gradient1.svg);
   background-size: 100vw 57.2917vw;
   position: relative;
 }
@@ -328,6 +328,10 @@ section {
   position: relative;
 }
 
+.dot {
+  position: relative;
+  z-index: 10;
+}
 .dot1 {
   position: absolute;
   top: 12.8vw;
@@ -402,6 +406,39 @@ section {
   background-image: url(../images/star5.svg);
   transform: scale(11.5);
   animation: kach2 3s ease-in-out forwards;
+}
+
+.sig {
+  font-family: "Montserrat";
+  font-size: 1.25vw;
+  color: #e2e3ff;
+  width: 5.6vw;
+  height: 1.5vw;
+}
+.sig1 {
+  position: absolute;
+  top: 11vw;
+  left: 40.4vw;
+}
+.sig2 {
+  position: absolute;
+  top: 23.5vw;
+  left: 82.6vw;
+}
+.sig3 {
+  position: absolute;
+  top: 36vw;
+  left: 17.6vw;
+}
+.sig4 {
+  position: absolute;
+  top: 50.9vw;
+  left: 47.7vw;
+}
+.sig5 {
+  position: absolute;
+  top: 66.9vw;
+  left: 87.3vw;
 }
 
 #light-ball {
