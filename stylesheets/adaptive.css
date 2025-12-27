@@ -243,3 +243,318 @@
     top: 3.2vw;
   }
 }
+
+@media screen and (max-width: 414px) {
+  #name {
+    height: 170vw;
+  }
+  .name {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  @keyframes fall {
+    0% {
+      transform: translateY(-20%);
+      opacity: 1;
+    }
+
+    70% {
+      opacity: 1;
+    }
+
+    100% {
+      transform: translateY(860%);
+      opacity: 0;
+    }
+  }
+
+  #second {
+    overflow: hidden;
+    width: 100vw;
+    height: 162vw;
+    background-image: url(../images/gradient2.svg);
+    background-size: 100vw 162vw;
+  }
+  .progress {
+    top: 80vw;
+    left: 39vw;
+  }
+  .stroke p {
+    width: 200%;
+    font-size: 3.86vw;
+  }
+  .stroke {
+    width: 100vw;
+    top: 116vw;
+    left: 0;
+  }
+  .scheme {
+    top: 0vw;
+    left: 28vw;
+    width: 48.177vw;
+    height: 47.34vw;
+    background-image: url(../images/scheme11.png);
+    background-size: 618.229vw 47.34vw;
+  }
+
+  .dot1 {
+    width: 5.5vw;
+    height: 5.5vw;
+    background-size: cover;
+    top: 11.8vw;
+  }
+  .dot2 {
+    width: 5.5vw;
+    height: 5.5vw;
+    background-size: 5.5vw 5.5vw;
+    top: 19.2vw;
+  }
+  .dot2:hover {
+    background-image: url(../images/star2.svg);
+    transform: scale(4.5);
+  }
+  @keyframes kach {
+    0% {
+      transform: scale(4.5) rotate(0deg);
+    }
+    20% {
+      transform: scale(4.5) rotate(1.5deg);
+    }
+    40% {
+      transform: scale(4.5) rotate(-1.5deg);
+    }
+    60% {
+      transform: scale(4.5) rotate(1deg);
+    }
+    80% {
+      transform: scale(4.5) rotate(-1deg);
+    }
+    100% {
+      transform: scale(4.5) rotate(0deg);
+    }
+  }
+
+  .dot3 {
+    width: 5.5vw;
+    height: 5.5vw;
+    background-size: cover;
+    top: 36.6vw;
+  }
+  .dot3:hover {
+    transform: scale(6);
+  }
+
+  .dot4 {
+    width: 5.5vw;
+    height: 5.5vw;
+    background-size: cover;
+    top: 46vw;
+  }
+  .dot4:hover {
+    transform: scale(-15);
+  }
+
+  .dot5 {
+    width: 5.5vw;
+    height: 5.5vw;
+    background-size: 5.5vw 5.5vw;
+    top: 67.6vw;
+  }
+  .dot5:hover {
+    transform: scale(7);
+  }
+  @keyframes kach2 {
+    0% {
+      transform: scale(1) rotate(0deg);
+    }
+
+    20% {
+      transform: scale(7) rotate(20deg);
+    }
+
+    40% {
+      transform: scale(7) rotate(0deg);
+    }
+
+    60% {
+      transform: scale(7) rotate(-40deg);
+    }
+
+    80% {
+      transform: scale(7) rotate(0deg);
+    }
+
+    100% {
+      transform: scale(7) rotate(10deg);
+    }
+  }
+
+  .sig {
+    font-size: 2.9vw;
+  }
+  .sig1 {
+    top: 8.2vw;
+  }
+  .sig2 {
+    top: 24.6vw;
+  }
+  .sig3 {
+    top: 32.8vw;
+  }
+  .sig5 {
+    top: 64vw;
+  }
+
+  .dot2:hover {
+    background-image: url(../images/star2.svg);
+    transform: scale(5.5);
+  }
+  @keyframes kach {
+    0% {
+      transform: scale(5.5) rotate(0deg);
+    }
+    20% {
+      transform: scale(5.5) rotate(1.5deg);
+    }
+    40% {
+      transform: scale(5.5) rotate(-1.5deg);
+    }
+    60% {
+      transform: scale(5.5) rotate(1deg);
+    }
+    80% {
+      transform: scale(5.5) rotate(-1deg);
+    }
+    100% {
+      transform: scale(5.5) rotate(0deg);
+    }
+  }
+
+  .light {
+    bottom: 10vw;
+  }
+
+  .stairs1 {
+    height: 17vw;
+  }
+  .stairs2 {
+    width: 100vw;
+    height: 14.5vw;
+    bottom: 17vw;
+  }
+  .stairs3 {
+    width: 66vw;
+    height: 12vw;
+    bottom: 31vw;
+  }
+  .stairs4 {
+    width: 48.7vw;
+    height: 9.7vw;
+    bottom: 41.7vw;
+  }
+
+  .stairs p {
+    font-size: 4.8vw;
+  }
+
+  .last {
+    height: 40vw;
+  }
+  .last p {
+    font-size: 3.86vw;
+  }
+  .milana {
+    top: 7.5vw;
+    left: 6vw;
+  }
+  .group {
+    top: 17.6vw;
+    left: 6vw;
+  }
+  .year {
+    top: 27.8vw;
+    left: 6vw;
+  }
+
+  .lastdot2,
+  .lastdot3,
+  .lastdot4,
+  .lastdot5,
+  .lastdot6,
+  .lastdot7,
+  .lastdot8,
+  .lastdot9,
+  .lastdot10,
+  .lastdot11 {
+    width: 5.8vw;
+    height: 5.8vw;
+    /* left: 6vw; */
+  }
+
+  .lastdot1 {
+    opacity: 0;
+  }
+
+  .lastdot2,
+  .lastdot3,
+  .lastdot4,
+  .lastdot5 {
+    top: 9.8vw;
+  }
+  .lastdot2 {
+    left: 6vw;
+  }
+  .lastdot3 {
+    left: 11.7vw;
+  }
+  .lastdot4 {
+    left: 17.4vw;
+  }
+  .lastdot5 {
+    left: 23.1vw;
+  }
+
+  .lastdot6 {
+    top: 19.8vw;
+    left: 6vw;
+  }
+  .lastdot7 {
+    top: 19.8vw;
+    left: 11.7vw;
+  }
+  .lastdot8 {
+    top: 19.8vw;
+    left: 17.4vw;
+  }
+
+  .lastdot9 {
+    top: 30vw;
+    left: 6vw;
+  }
+  .lastdot10 {
+    top: 30vw;
+    left: 17.4vw;
+  }
+  .lastdot11 {
+    top: 30vw;
+    left: 23.1vw;
+  }
+
+  .lastdot1:hover,
+  .lastdot2:hover,
+  .lastdot3:hover,
+  .lastdot4:hover,
+  .lastdot5:hover,
+  .lastdot6:hover,
+  .lastdot7:hover,
+  .lastdot8:hover,
+  .lastdot9:hover,
+  .lastdot10:hover,
+  .lastdot11:hover {
+    opacity: 0;
+    transition: all 0.1s ease;
+  }
+}
