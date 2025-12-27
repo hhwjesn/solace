@@ -1,0 +1,245 @@
+@media screen and (max-width: 768px) {
+  #name {
+    height: 88.5vw;
+  }
+  .name {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  @keyframes fall {
+    0% {
+      transform: translateY(-20%);
+      opacity: 1;
+    }
+
+    70% {
+      opacity: 1;
+    }
+
+    100% {
+      transform: translateY(400%);
+      opacity: 0;
+    }
+  }
+
+  .stroke p {
+    font-size: 2.08vw;
+  }
+  .stroke {
+    top: 38vw;
+  }
+
+  .dot1 {
+    width: 5.5vw;
+    height: 5.5vw;
+    background-size: cover;
+    top: 11.8vw;
+  }
+  .dot2 {
+    width: 5.5vw;
+    height: 5.5vw;
+    background-size: 5.5vw 5.5vw;
+    top: 19.2vw;
+  }
+  .dot2:hover {
+    background-image: url(../images/star2.svg);
+    transform: scale(4.5);
+  }
+  @keyframes kach {
+    0% {
+      transform: scale(4.5) rotate(0deg);
+    }
+    20% {
+      transform: scale(4.5) rotate(1.5deg);
+    }
+    40% {
+      transform: scale(4.5) rotate(-1.5deg);
+    }
+    60% {
+      transform: scale(4.5) rotate(1deg);
+    }
+    80% {
+      transform: scale(4.5) rotate(-1deg);
+    }
+    100% {
+      transform: scale(4.5) rotate(0deg);
+    }
+  }
+
+  .dot3 {
+    width: 5.5vw;
+    height: 5.5vw;
+    background-size: cover;
+    top: 36.6vw;
+  }
+  .dot3:hover {
+    transform: scale(6);
+  }
+
+  .dot4 {
+    width: 5.5vw;
+    height: 5.5vw;
+    background-size: cover;
+    top: 46vw;
+  }
+  .dot4:hover {
+    transform: scale(-15);
+  }
+
+  .dot5 {
+    width: 5.5vw;
+    height: 5.5vw;
+    background-size: 5.5vw 5.5vw;
+    top: 67.6vw;
+  }
+  .dot5:hover {
+    transform: scale(7);
+  }
+  @keyframes kach2 {
+    0% {
+      transform: scale(1) rotate(0deg);
+    }
+
+    20% {
+      transform: scale(7) rotate(20deg);
+    }
+
+    40% {
+      transform: scale(7) rotate(0deg);
+    }
+
+    60% {
+      transform: scale(7) rotate(-40deg);
+    }
+
+    80% {
+      transform: scale(7) rotate(0deg);
+    }
+
+    100% {
+      transform: scale(7) rotate(10deg);
+    }
+  }
+
+  .sig {
+    font-size: 2vw;
+  }
+  .sig1 {
+    top: 9vw;
+  }
+  .sig2 {
+    top: 25vw;
+  }
+  .sig3 {
+    top: 34vw;
+  }
+  .sig4 {
+    top: 52.5vw;
+  }
+  .sig5 {
+    top: 64.9vw;
+  }
+
+  #light-ball {
+    width: 100vw;
+    height: 159vw;
+  }
+  .ball {
+    width: 84vw;
+    height: 73vw;
+    background-size: 84vw 73vw;
+    bottom: 91vw;
+  }
+  .ball p {
+    font-size: 3.125vw;
+    width: 24.7vw;
+    height: 11vw;
+  }
+
+  .light {
+    width: 46.8vw;
+    height: 148vw;
+    background-size: 717.08vw 148vw;
+    bottom: -8vw;
+  }
+
+  .stairs1 {
+    width: 100vw;
+    height: 9.2vw;
+  }
+  .stairs2 {
+    width: 66vw;
+    height: 7.8vw;
+    bottom: 9.1vw;
+  }
+  .stairs3 {
+    width: 47vw;
+    height: 6.5vw;
+    bottom: 16.8vw;
+  }
+  .stairs4 {
+    width: 34.9vw;
+    height: 5.2vw;
+    bottom: 22.7vw;
+  }
+
+  .stairs p {
+    font-size: 2.9vw;
+  }
+
+  .back-dot8 {
+    top: 52vw;
+    left: 5vw;
+  }
+  .back-dot9 {
+    top: 130vw;
+  }
+  .back-dot10 {
+    top: 90vw;
+    left: 72vw;
+  }
+  .back-dot18 {
+    top: 103vw;
+  }
+  .back-dot19 {
+    top: 113vw;
+    left: 30vw;
+  }
+  .back-dot20 {
+    top: 73vw;
+    left: 20vw;
+  }
+  .back-dot23 {
+    top: 68vw;
+  }
+
+  .last {
+    height: 8vw;
+  }
+  .last p {
+    top: 3.2vw;
+    font-size: 2.1vw;
+  }
+  .milana {
+    left: 6.7vw;
+  }
+  .group {
+    left: 46.1vw;
+  }
+  .lastdot1,
+  .lastdot2,
+  .lastdot3,
+  .lastdot4,
+  .lastdot5,
+  .lastdot6,
+  .lastdot7,
+  .lastdot8,
+  .lastdot9,
+  .lastdot10,
+  .lastdot11 {
+    top: 3.2vw;
+  }
+}
