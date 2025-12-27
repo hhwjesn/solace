@@ -27,9 +27,18 @@
 
   .stroke p {
     font-size: 2.08vw;
+    width: 220%;
   }
   .stroke {
     top: 38vw;
+  }
+  @keyframes stroke {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
   }
 
   .dot1 {
@@ -283,14 +292,23 @@
     left: 39vw;
   }
   .stroke p {
-    width: 200%;
     font-size: 3.86vw;
+    width: 220%;
   }
   .stroke {
     width: 100vw;
     top: 116vw;
     left: 0;
   }
+  @keyframes stroke {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
   .scheme {
     top: 0vw;
     left: 28vw;
@@ -431,6 +449,11 @@
     100% {
       transform: scale(5.5) rotate(0deg);
     }
+  }
+
+  #light-ball {
+    width: 100vw;
+    height: 179vw;
   }
 
   .light {

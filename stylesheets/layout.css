@@ -689,43 +689,12 @@ section {
   z-index: 4;
 }
 
-/* .text2 {
-  display: flex;
-  align-items: center;
-}
-.text2 p {
-  font-family: "Montserrat";
-  font-size: 32px;
-  color: #141e4f;
-  text-align: center;
-  width: 13.125vw;
-  height: 5.5729vw;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  text-align: center;
-  opacity: 0;
-} */
 .ball:hover p {
   opacity: 1;
 }
 
-/* .balllines1 {
-  width: 49.705vw;
-  height: 43vw;
-  background-image: url(../images/balllines1.png);
-  background-size: 49.705vw 43vw;
-} */
-
-/* #light-ball {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
 .light {
   position: absolute;
-  /* top: 16.875vw;
-  right: auto; */
   bottom: -4vw;
   left: 50%;
   transform: translateX(-50%);
@@ -734,7 +703,6 @@ section {
   background-image: url(../images/light3.png);
   background-size: 717.08vw 80.42vw;
   animation: light 4s steps(13) infinite;
-  /* overflow: hidden; */
   z-index: 1;
 }
 
